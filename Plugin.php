@@ -40,7 +40,7 @@ class Plugin extends PluginBase
     {
         return [
             'config' => [
-                'label' => 'Google Tag Manager',
+                'label' => 'alekseyp.googletagmanager::lang.plugin.name',
                 'icon' => 'oc-icon-google',
                 'description' => 'alekseyp.googletagmanager::lang.settings.container_id.description',
                 'class' => 'AlekseyP\GoogleTagManager\Models\Settings',
