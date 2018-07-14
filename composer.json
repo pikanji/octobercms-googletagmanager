@@ -2,6 +2,7 @@
     "name": "pikanji/googletagmanager-plugin",
     "type": "october-plugin",
     "description": "Google Tag manager plugin for October CMS.",
+    "keywords": ["october", "cms", "gtm", "google", "tagmanager"],
     "license": "MIT",
     "authors": [
         {
