@@ -1,5 +1,5 @@
 {
-    "name": "pikanji/googletagmanager-plugin",
+    "name": "alekseyp/googletagmanager-plugin",
     "type": "october-plugin",
     "description": "Google Tag manager plugin for October CMS.",
     "keywords": ["october", "cms", "gtm", "google", "tagmanager"],
