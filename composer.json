@@ -1,0 +1,15 @@
+{
+    "name": "pikanji/googletagmanager-plugin",
+    "type": "october-plugin",
+    "description": "Google Tag manager plugin for October CMS.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlekseyP"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    }
+}
