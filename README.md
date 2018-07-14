@@ -13,7 +13,8 @@ You can use default code on all pages or you can specify unique tag for specific
 2. Add your site configuration details to the Google Tag Manager Plugin configuration page. (Under the 'Misc' section of the System Settings page in the Backend).
 3. Add the Google Tag Manager Component to your master layout.
 4. Add ```{% component 'gtmCode' %}``` to the content of the default layout so that it appears immediately after the opening ```<body>``` tag.
-5. Save the file.
+5. Add ```{% placeholder gtm %}``` in the `<head>` of your web page's HTML output, preferably as close to the opening `<head>` tag as possible, but below any dataLayer declarations.
+6. Save the file.
 
 You can also add the component to the file manually and/or override ```container_id``` from your settings.  For Example:
 
@@ -25,6 +26,7 @@ You can also add the component to the file manually and/or override ```container
 		<title>{{ this.page.title }}</title>
 		<meta name="author" content="October CMS">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	{% placeholder gtm %}
     	{% styles %}
     	<link href="{{ [
     	    'assets/css/theme.css'
